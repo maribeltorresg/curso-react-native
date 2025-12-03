@@ -4,6 +4,7 @@
 // import { Counter } from "./components/Counter";
 // import { LoginPage } from "./components/LoginPage";
 import { AuthProvider } from "./context/AuthContext";
+import { UserPage } from "./components/UserPage";
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ function App() {
         {/* <BasicFunctions/> */}
         {/* <Counter /> */}
         {/* <LoginPage/> */}
+        <UserPage/>
       </div>
     </AuthProvider>
   );
